@@ -37,7 +37,7 @@ npm install -D @styles/typescript
 Note: you may use either CORS or a proxy server setting while you are developing the code and 
 running two servers (Vite, and Express).  
 ```
-Create a new `package.json` file: Webstorm -> New -> package.json. Edit the file by 
+Create a new `package.json` file: Webstorm -> New -> package.json. Edit the file by
 changing `index.js` to `server.ts`. Create a `server.ts` file for your server code.
 ---
 Data will be stored in the Express server in an array of objects (computer memory) instead of being persistent and stored in database. Use React to create a form based on one of your hobbies from Assignment 2. The form must contain at least 5 different fields.
