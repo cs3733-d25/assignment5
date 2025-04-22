@@ -42,6 +42,9 @@ Create a new `package.json` file:
 Webstorm -> New -> package.json.  
 Edit the file by changing `index.js` to `server.ts`. Create a `server.ts` file for your server code.
 
+Change the styling for the form by selecting a font and new background and text colors.
+You may use plain CSS or a style framework like Shadcn, Tailwind, MaterialUI, Mantine, etc.
+
 Data will be stored in the Express server in an array of objects (computer memory) instead of being persistent and stored in database. Use React to create a form based on one of your hobbies from Assignment 2. The form must contain at least 5 different fields.
 1. The form contains two buttons, a Submit button and a Display Logs button
 2. When the Submit button is selected,
