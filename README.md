@@ -37,6 +37,8 @@ npm install -D @styles/typescript
 Note: you may use either CORS or a proxy server setting while you are developing the code and 
 running two servers (Vite, and Express).  
 ```
+####
+
 Create a new `package.json` file: Webstorm -> New -> package.json. Edit the file by
 changing `index.js` to `server.ts`. Create a `server.ts` file for your server code.
 ---
