@@ -40,7 +40,7 @@ running two servers (Vite, and Express).
 #### Create package.json
 Create a new `package.json` file:  
 Webstorm -> New -> package.json.  
-Edit the file by changing index.js to server.ts. Create a server.ts file for your server code.
+Edit the file by changing `index.js` to `server.ts`. Create a `server.ts` file for your server code.
 
 Data will be stored in the Express server in an array of objects (computer memory) instead of being persistent and stored in database. Use React to create a form based on one of your hobbies from Assignment 2. The form must contain at least 5 different fields.
 1. The form contains two buttons, a Submit button and a Display Logs button
