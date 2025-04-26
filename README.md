@@ -1,4 +1,4 @@
-# Assignment 3 - Creating a Full-stack App
+# Assignment 5 - Creating a Full-stack App
 Due M 4-28 at 11:59pm. Late submission policy: 10 points off if submitted by T 4-29 at noon. This assignment is 
 to be done in the same teams of two as in the previous assignments.
 
@@ -27,6 +27,11 @@ Webstorm -> New Project -> Vite -> Template: react -> check Use TypeScript Templ
 
 In the server folder, create an empty project:  
 Webstorm -> File -> New Project -> Empty Project  
+
+Create a new `package.json` file:  
+Webstorm -> New -> package.json.  
+Edit the file by changing `index.js` to `server.ts`. Create a `server.ts` file for your server code.
+
 Install Express and Typescript by running the following commands at the terminal
 ``` 
 npm install -D express cors
@@ -38,15 +43,14 @@ npm install -D @styles/typescript
 Note: you may use either CORS or a proxy server setting while you are developing the code and 
 running two servers (Vite, and Express).  
 ```  
-
-Create a new `package.json` file:  
-Webstorm -> New -> package.json.  
-Edit the file by changing `index.js` to `server.ts`. Create a `server.ts` file for your server code.
-
+  
 Change the styling for the form by selecting a font and new background and text colors.
 You may use plain CSS or a style framework like Shadcn, Tailwind, MaterialUI, Mantine, etc.
 
-Data will be stored in the Express server in an array of objects (computer memory) instead of being persistent and stored in database. Use React to create a form based on one of your hobbies from Assignment 2. The form must contain at least 5 different fields.
+Data will be stored in the Express server in an array of objects (computer memory) instead of 
+being persistent and stored in database. Use React (create this in the client folder) to create
+a form based on one of your hobbies from Assignment 2. The form must contain at least 5 different
+fields.
 1. The form contains two buttons, a Submit button and a Display Logs button
 2. When the Submit button is selected,
     1. the form submits the data to the server using a POST fetch() using the /submit endpoint 
